@@ -20,6 +20,7 @@ var challenge = new EasyLevelChallengeLambdas();
 challenge.LambdaChallengeNumbers();
 challenge.LambdaChallengeNamesList();
 challenge.LambdaChallengeWordsList();
+challenge.LambdaChallengeAgeList();
 
 app.UseHttpsRedirection();
 

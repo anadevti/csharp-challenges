@@ -38,6 +38,12 @@ public class EasyLevelChallengeLambdas
     }
     // Desafio 4
     // Usar OrderBy para ordenar uma lista de idades em ordem crescente.
-    
-    //TODO: Escrever metodo
+
+    public void LambdaChallengeAgeList()
+    {
+        List<int> ages = [10, 9, 55, 80];
+        var agesOrdered = ages.OrderBy(a => a).ToList();
+        
+        Console.WriteLine($"Lista de idades ordenada em ordem Crescente: "+string.Join(",",agesOrdered));
+    }
 }
