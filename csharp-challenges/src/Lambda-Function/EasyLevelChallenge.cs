@@ -12,7 +12,7 @@ public class EasyLevelChallengeLambdas
         
         var evenNumbers = numbers.Where(n => n % 2 == 0).ToList();
                                         //    ↑    ↑
-                                        //    |    └─ CORPO da lambda (a expressão/lógica)
+                                        //    |    └─ CORPO da lambda (a expressão/lógica ("para cada item faça"))
                                         //    └────── PARÂMETRO da lambda
         Console.WriteLine($"Os Numeros Pares são:"+string.Join(",",evenNumbers));
     }
