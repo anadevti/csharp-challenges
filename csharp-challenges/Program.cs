@@ -1,3 +1,5 @@
+using csharp_challenges.Lambda_Function;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -11,6 +13,13 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
+
+var challenge = new EasyLevelChallengeLambdas();
+// lambda function tests
+challenge.LambdaChallengeNumbers();
+challenge.LambdaChallengeNamesList();
+challenge.LambdaChallengeWordsList();
 
 app.UseHttpsRedirection();
 
