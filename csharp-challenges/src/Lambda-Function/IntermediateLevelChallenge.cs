@@ -23,5 +23,18 @@
 
 public class IntermediateLevelChallenge
 {
-    
+    public class Product
+    {
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+        public string Category { get; set; }
+
+        private List<Product> products = new List<Product>()
+        {
+            new Product { Id = "2837832hdaus", Name = "Monitor", Price = 10m, Category = "Electronics" },
+            // TODO: seguir com o desafio
+        };
+
+    }
 }
