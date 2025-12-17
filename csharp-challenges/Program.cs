@@ -22,6 +22,10 @@ challenge.LambdaChallengeNamesList();
 challenge.LambdaChallengeWordsList();
 challenge.LambdaChallengeAgeList();
 
+var challenge2 = new IntermediateLevelChallenge();
+// lambda function tests intermediate
+challenge2.GetProductsElectronics();
+
 app.UseHttpsRedirection();
 
 app.Run();
